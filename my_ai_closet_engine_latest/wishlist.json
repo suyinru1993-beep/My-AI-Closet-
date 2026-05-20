@@ -1,0 +1,20 @@
+[
+  {
+    "category": "아우터",
+    "detail": "[위시] 멜톤 울 오버 브라운 코트",
+    "color": "브라운",
+    "season": "겨울",
+    "style": "캐주얼",
+    "file_path": "datasets\\Wishlist\\brown_coat.png",
+    "gender": "공용"
+  },
+  {
+    "category": "아우터",
+    "detail": "[위시] 캐시미어 싱글 베이지 블레이저",
+    "color": "베이지",
+    "season": "봄, 가을",
+    "style": "포멀",
+    "file_path": "datasets\\Wishlist\\beige_blazer.png",
+    "gender": "공용"
+  }
+]

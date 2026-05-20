@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최종 확정 패션 자산 리포트 (36선)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #000;
+            --accent: #FF3B30;
+            --bg: #F8F9FA;
+            --card-bg: #FFFFFF;
+        }
+        body {
+            font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 40px 20px;
+            color: var(--primary);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section {
+            margin-bottom: 80px;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            display: inline-block;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.07);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .img-container {
+            width: 100%;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            background: #eee;
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        .card:hover .img-container img {
+            transform: scale(1.08);
+        }
+        .info {
+            padding: 20px;
+        }
+        .id-badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: #f0f0f0;
+            padding: 4px 10px;
+            border-radius: 100px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        .mood {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.2rem; }
+            .grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+            .stats-bar { gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Summer Shopper 2026: Master Assets</h1>
+            <p>최종 엄선된 36선 통합 리스트 (남성 데일리 아이템 보강 완료)</p>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-value">36</span>
+                    <span class="stat-label">Total Images</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">22</span>
+                    <span class="stat-label">Feminine</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">14</span>
+                    <span class="stat-label">Urban</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2 class="section-title">페미닌 & 서머 (여성)</h2>
+            <div class="grid">
+                <!-- 상의/스커트/원피스 -->
+                <div class="card"><div class="img-container"><img src="List_up/FK_02.png"></div><div class="info"><div class="id-badge">FK_02</div><div class="mood">Classic Skirt</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_03.png"></div><div class="info"><div class="id-badge">FK_03</div><div class="mood">Midi Skirt</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_07.png"></div><div class="info"><div class="id-badge">FK_07</div><div class="mood">Pattern Skirt</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_012.png"></div><div class="info"><div class="id-badge">FK_012</div><div class="mood">Romantic Skirt</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_45.jpeg"></div><div class="info"><div class="id-badge">F_45</div><div class="mood">페미닌 원피스</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_38.png"></div><div class="info"><div class="id-badge">F_38</div><div class="mood">Minimalist</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_41.png"></div><div class="info"><div class="id-badge">F_41</div><div class="mood">Lovely Pink</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_42.png"></div><div class="info"><div class="id-badge">F_42</div><div class="mood">Lovely Yellow</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_36.png"></div><div class="info"><div class="id-badge">F_36</div><div class="mood">Seongsu Chic (Skirt Look)</div></div></div>
+            </div>
+            <div class="grid" style="margin-top: 30px;">
+                <!-- 바지/기타 -->
+                <div class="card"><div class="img-container"><img src="List_up/FK_01.png"></div><div class="info"><div class="id-badge">FK_01</div><div class="mood">Daily Denim</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_08.png"></div><div class="info"><div class="id-badge">FK_08</div><div class="mood">Chino Pants</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_09.png"></div><div class="info"><div class="id-badge">FK_09</div><div class="mood">Straight Fit</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_011.png"></div><div class="info"><div class="id-badge">FK_011</div><div class="mood">Clean Daily</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_013.png"></div><div class="info"><div class="id-badge">FK_013</div><div class="mood">MZ Daily 01</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_014.png"></div><div class="info"><div class="id-badge">FK_014</div><div class="mood">MZ Daily 02</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_015.png"></div><div class="info"><div class="id-badge">FK_015</div><div class="mood">MZ Daily 03</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_016.png"></div><div class="info"><div class="id-badge">FK_016</div><div class="mood">MZ Daily 04</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/FK_017.png"></div><div class="info"><div class="id-badge">FK_017</div><div class="mood">MZ Daily 05</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_43.jpeg"></div><div class="info"><div class="id-badge">F_43</div><div class="mood">서머 반바지 01</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_44.jpeg"></div><div class="info"><div class="id-badge">F_44</div><div class="mood">서머 반바지 02</div></div></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">영스트릿 패션 (남/여)</h2>
+            <div class="grid">
+                <div class="card"><div class="img-container"><img src="List_up/F_37.png"></div><div class="info"><div class="id-badge">F_37</div><div class="mood">MZ Street (Night)</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/F_46.jpeg"></div><div class="info"><div class="id-badge">F_46</div><div class="mood">트렌디 영스트릿</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/M_33.png"></div><div class="info"><div class="id-badge">M_33</div><div class="mood">Street Cargo</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/M_34.png"></div><div class="info"><div class="id-badge">M_34</div><div class="mood">Graphic Cargo</div></div></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">세미정장 & 댄디 (남성)</h2>
+            <div class="grid">
+                <div class="card"><div class="img-container"><img src="List_up/UK_01.png"></div><div class="info"><div class="id-badge">UK_01</div><div class="mood">Dandy Semi-suit</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_05.png"></div><div class="info"><div class="id-badge">UK_05</div><div class="mood">Modern Semi-suit</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/M_35.jpeg"></div><div class="info"><div class="id-badge">M_35</div><div class="mood">세미정장 Look 01</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/M_36.jpeg"></div><div class="info"><div class="id-badge">M_36</div><div class="mood">세미정장 Look 02</div></div></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">데일리 캐주얼 (남성 3040+)</h2>
+            <div class="grid">
+                <div class="card"><div class="img-container"><img src="List_up/M_37.png"></div><div class="info"><div class="id-badge">M_37</div><div class="mood">Daily Casual Look</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_02.png"></div><div class="info"><div class="id-badge">UK_02</div><div class="mood">Classic Casual</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_03.png"></div><div class="info"><div class="id-badge">UK_03</div><div class="mood">Modern Look</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_06.png"></div><div class="info"><div class="id-badge">UK_06</div><div class="mood">Layered Style</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_08.png"></div><div class="info"><div class="id-badge">UK_08</div><div class="mood">Relaxed Vacation</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_09.png"></div><div class="info"><div class="id-badge">UK_09</div><div class="mood">3040 Relaxed Knit</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_10.png"></div><div class="info"><div class="id-badge">UK_10</div><div class="mood">Layered Brown Shirt</div></div></div>
+                <div class="card"><div class="img-container"><img src="List_up/UK_11.png"></div><div class="info"><div class="id-badge">UK_11</div><div class="mood">Layered Denim Shirt</div></div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+[
+  {
+    "category": "상의",
+    "detail": "옥스퍼드 기본 셔츠",
+    "color": "화이트",
+    "season": "봄, 가을",
+    "style": "포멀",
+    "file_path": "datasets\\MyCloset\\white_shirt.png",
+    "gender": "Man",
+    "category_code": "M_OFFICE",
+    "style_tags": "shirt, white, spring, autumn, formal"
+  },
+  {
+    "category": "하의",
+    "detail": "스트레이트 슬림 슬랙스",
+    "color": "블랙",
+    "season": "봄, 가을, 겨울",
+    "style": "포멀",
+    "file_path": "datasets\\MyCloset\\black_slacks.png",
+    "gender": "Man",
+    "category_code": "M_OFFICE",
+    "style_tags": "slacks, black, spring, autumn, winter, formal"
+  },
+  {
+    "category": "상의",
+    "detail": "라운드넥 케이블 니트",
+    "color": "베이지",
+    "season": "봄, 가을, 겨울",
+    "style": "캐주얼",
+    "file_path": "datasets\\MyCloset\\beige_knit.png",
+    "gender": "Man",
+    "category_code": "M_CAMPUS",
+    "style_tags": "knit, beige, spring, autumn, winter, casual"
+  },
+  {
+    "category": "하의",
+    "detail": "테이퍼드 중청 청바지",
+    "color": "블루",
+    "season": "봄, 가을, 겨울",
+    "style": "캐주얼",
+    "file_path": "datasets\\MyCloset\\blue_jeans.png",
+    "gender": "Man",
+    "category_code": "M_CAMPUS",
+    "style_tags": "denim, blue, spring, autumn, winter, casual"
+  },
+  {
+    "category": "아우터",
+    "detail": "숏 오버핏 패딩",
+    "color": "블랙",
+    "season": "겨울",
+    "style": "캐주얼",
+    "file_path": "datasets\\MyCloset\\black_padding.png",
+    "gender": "Man",
+    "category_code": "M_CAMPUS",
+    "style_tags": "padding, black, winter, casual"
+  },
+  {
+    "category": "아우터",
+    "detail": "네이비 테일러드 자켓",
+    "color": "네이비",
+    "season": "봄, 가을",
+    "style": "캐주얼",
+    "file_path": "datasets\\MyCloset\\navy_blazer.png",
+    "gender": "Man",
+    "category_code": "M_CAMPUS",
+    "style_tags": "jacket, navy, spring, autumn, casual"
+  },
+  {
+    "id": "ebccee325d4e44fc",
+    "category": "상의",
+    "detail": "베이지 라운드넥 니트",
+    "color": "베이지",
+    "season": "봄, 가을, 겨울",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\beige_knit.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "knit, beige, spring, autumn, winter, casual"
+  },
+  {
+    "id": "2d2c242604174437",
+    "category": "아우터",
+    "detail": "블랙 방한 패딩",
+    "color": "블랙",
+    "season": "겨울",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\black_padding.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "padding, black, winter, casual"
+  },
+  {
+    "id": "79e1d11cf5ee4346",
+    "category": "하의",
+    "detail": "그레이 드레스 슬랙스",
+    "color": "그레이",
+    "season": "봄, 가을, 겨울",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\black_slacks.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "slacks, grey, spring, autumn, winter, casual"
+  },
+  {
+    "id": "da3dbe9af8ab47ee",
+    "category": "하의",
+    "detail": "블루 테이퍼드 청바지",
+    "color": "블루",
+    "season": "봄, 가을, 겨울",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\blue_jeans.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "denim, blue, spring, autumn, winter, casual"
+  },
+  {
+    "id": "f50aeb595cbd4185",
+    "category": "아우터",
+    "detail": "네이비 테일러드 자켓",
+    "color": "네이비",
+    "season": "봄, 가을",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\navy_blazer.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "jacket, navy, spring, autumn, casual"
+  },
+  {
+    "id": "d5f228eace574363",
+    "category": "상의",
+    "detail": "화이트 클래식 셔츠",
+    "color": "화이트",
+    "season": "봄, 가을",
+    "style": "캐주얼",
+    "file_path": "C:\\home\\coordi\\coordi\\datasets\\MyCloset\\white_shirt.png",
+    "gender": "공용",
+    "category_code": "M_CAMPUS",
+    "style_tags": "shirt, white, spring, autumn, casual"
+  }
+]

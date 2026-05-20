@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1779195377",
+    "date": "2026-05-19 21:56",
+    "tpo": "주말 브런치 데이트",
+    "weather": "기온 16도, 다소 바람 불어 쌀쌀함",
+    "recommend_mode": "내 옷장만 추천",
+    "style_name": "모던 놈코어 그레이 스타일 코디",
+    "gender": "남성",
+    "items": [
+      {
+        "category": "상의",
+        "detail": "옥스퍼드 기본 셔츠",
+        "color": "화이트",
+        "brand": "",
+        "price": 0,
+        "url": "",
+        "file_path": "datasets\\MyCloset\\white_shirt.png",
+        "is_shopping_candidate": false
+      },
+      {
+        "category": "하의",
+        "detail": "스트레이트 슬림 슬랙스",
+        "color": "블랙",
+        "brand": "",
+        "price": 0,
+        "url": "",
+        "file_path": "datasets\\MyCloset\\black_slacks.png",
+        "is_shopping_candidate": false
+      },
+      {
+        "category": "아우터",
+        "detail": "네이비 테일러드 자켓",
+        "color": "네이비",
+        "brand": "",
+        "price": 0,
+        "url": "",
+        "file_path": "datasets\\MyCloset\\navy_blazer.png",
+        "is_shopping_candidate": false
+      }
+    ],
+    "reasons": [
+      "상황 최적화: 입력하신 TPO(주말 브런치 데이트)와 기온(16도)에 부합하는 심플하고 단정한 놈코어 무드 코디입니다."
+    ]
+  }
+]

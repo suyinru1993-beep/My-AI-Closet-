@@ -1,0 +1,24 @@
+[
+  {
+    "category": "아우터",
+    "detail": "[후보] 멜톤 울 오버 브라운 코트",
+    "color": "브라운",
+    "season": "겨울",
+    "style": "캐주얼",
+    "file_path": "datasets\\ShoppingCandidates\\brown_coat.png",
+    "gender": "Man",
+    "category_code": "M_CAMPUS",
+    "style_tags": "coat, brown, winter, casual"
+  },
+  {
+    "category": "아우터",
+    "detail": "[후보] 캐시미어 싱글 베이지 블레이저",
+    "color": "베이지",
+    "season": "봄, 가을",
+    "style": "포멀",
+    "file_path": "datasets\\ShoppingCandidates\\beige_blazer.png",
+    "gender": "Man",
+    "category_code": "M_OFFICE",
+    "style_tags": "beige, spring, autumn, formal"
+  }
+]
